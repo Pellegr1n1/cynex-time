@@ -1,16 +1,48 @@
 # CynexTime
 
-Olá, seja bem vindo ao nosso projeto!
+## 🧠 Visão Geral
 
-## 🧠 Domínimo do problema 
-Bem vindo ao projeto CynexTime, um sistema de gerenciamento de ponto eletrônico, onde os usuários poderam cadastrar suas horas trabalhas, e caso precisem, alterar e justificar as mesmas. Além disso, o sistema contará também com acesso para administradores que controlaram as ações prinicipais do sistema e de getores, anteriormente cadastrados pelos administradores e que terão controle sobre suas respectivas equipe.
+Bem-vindo ao CynexTime, um sistema de gerenciamento de ponto eletrônico que simplifica o registro e controle de horas trabalhadas. Desenvolvido com o objetivo de oferecer uma solução eficiente e intuitiva, o CynexTime permite que os usuários registrem suas horas trabalhadas, efetuem alterações quando necessário e justifiquem eventuais ajustes.
 
-## 🌐 Tecnologias utilizadas
+Além disso, o sistema oferece acesso a administradores, que têm controle total sobre as principais ações do sistema, e a gestores, previamente cadastrados pelos administradores, que gerenciam suas respectivas equipes de forma eficaz.
 
+## 📃 Funcionalidades Principais
+
+- **Registro de Ponto:**
+  - Os usuários podem facilmente registrar suas horas trabalhadas de forma rápida e precisa.
+  
+- **Gerenciamento de Horas:**
+  - Os usuários têm a capacidade de realizar alterações em seus registros de ponto, quando necessário, garantindo a precisão e transparência.
+  
+- **Justificativa de Horas:**
+  - Os usuários podem justificar eventuais alterações feitas em seus registros, fornecendo explicações pertinentes para garantir a integridade dos dados.
+
+- **Controle de Acesso:**
+  - Os administradores têm controle total sobre as permissões de acesso, garantindo a segurança e privacidade dos dados.
+  
+- **Gestão de Equipes:**
+  - Os gestores têm acesso aos registros de ponto de suas equipes, facilitando a supervisão e gestão eficaz do tempo de trabalho.
+
+## 🌐 Tecnologias Utilizadas
 ![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB) ![PHP](https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white) ![MySQL](https://img.shields.io/badge/MySQL-00000F?style=for-the-badge&logo=mysql&logoColor=white)
 
 
-<h2 align="center">Contribuidores</h2>
+
+- **Frontend:**
+  - HTML5, CSS3, JavaScript
+  - Framework: React.js
+  
+- **Backend:**
+  - Linguagem de Programação: PHP
+  
+- **Banco de Dados:**
+  - MySQL
+  
+- **Hospedagem:**
+  - Serviços de Cloud Computing (AWS)
+
+## Contato
+
 <table align="center">
   <tr>
     <td align="center"><a href="https://rocketseat.com.br"><img style="border-radius: 50%;" src="https://avatars.githubusercontent.com/u/118866895?s=400&u=a12412e21705d58ab604be67c1e1431c80174b64&v=4" width="100px;" alt=""/><br /><sub><b>Humberto Peresd</b></sub></a><br /><a href="https://rocketseat.com.br/" title="Rocketseat">👨‍🚀</a></td>
@@ -19,4 +51,3 @@ Bem vindo ao projeto CynexTime, um sistema de gerenciamento de ponto eletrônico
     <td align="center"><a href="https://rocketseat.com.br"><img style="border-radius: 50%;" src="https://avatars.githubusercontent.com/u/104214178?v=4" width="100px;" alt=""/><br /><sub><b>Vítor Celestino</b></sub></a><br /><a href="https://rocketseat.com.br/" title="Rocketseat">🚀</a></td>
     <td align="center"><a href="https://rocketseat.com.br"><img style="border-radius: 50%;" src="https://avatars.githubusercontent.com/u/98751190?v=4" width="100px;" alt=""/><br /><sub><b>Israel Moreira</b></sub></a><br /><a href="https://rocketseat.com.br/" title="Rocketseat">🚀</a></td>
   </tr>
-</table>
