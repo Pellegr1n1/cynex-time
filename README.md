@@ -12,16 +12,16 @@ Além disso, o sistema oferece acesso a administradores, que têm controle total
   - Os usuários podem facilmente registrar suas horas trabalhadas de forma rápida e precisa.
   
 - **Gerenciamento de Horas:**
-  - Os usuários têm a capacidade de realizar alterações em seus registros de ponto, quando necessário, garantindo a precisão e transparência.
+  - Os usuários têm a capacidade de realizar alterações em seus registros de ponto, quando necessário.
   
 - **Justificativa de Horas:**
-  - Os usuários podem justificar eventuais alterações feitas em seus registros, fornecendo explicações pertinentes para garantir a integridade dos dados.
+  - Os usuários podem justificar eventuais alterações feitas em seus registros, fornecendo explicações para que seu gestor aceite.
 
 - **Controle de Acesso:**
   - Os administradores têm controle total sobre as permissões de acesso, garantindo a segurança e privacidade dos dados.
   
 - **Gestão de Equipes:**
-  - Os gestores têm acesso aos registros de ponto de suas equipes, facilitando a supervisão e gestão eficaz do tempo de trabalho.
+  - Os gestores têm acesso aos registros de ponto de suas equipes, facilitando a supervisão e gestão eficaz do tempo de trabalho e aceitando justificativas.
 
 ## 🌐 Tecnologias Utilizadas
 ![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB) ![PHP](https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white) ![MySQL](https://img.shields.io/badge/MySQL-00000F?style=for-the-badge&logo=mysql&logoColor=white)
