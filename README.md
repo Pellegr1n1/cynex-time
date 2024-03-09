@@ -24,7 +24,7 @@ Além disso, o sistema oferece acesso a administradores, que têm controle total
   - Os gestores têm acesso aos registros de ponto de suas equipes, facilitando a supervisão e gestão eficaz do tempo de trabalho e aceitando justificativas.
 
 ## 🌐 Tecnologias Utilizadas
-![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB) ![PHP](https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white) ![MySQL](https://img.shields.io/badge/MySQL-00000F?style=for-the-badge&logo=mysql&logoColor=white)
+![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB) ![MySQL](https://img.shields.io/badge/MySQL-00000F?style=for-the-badge&logo=mysql&logoColor=white)
 
 
 
@@ -33,7 +33,7 @@ Além disso, o sistema oferece acesso a administradores, que têm controle total
   - Framework: React.js
   
 - **Backend:**
-  - Linguagem de Programação: PHP
+  - Linguagem de Programação: NODE
   
 - **Banco de Dados:**
   - MySQL
