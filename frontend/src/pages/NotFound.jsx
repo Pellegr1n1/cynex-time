@@ -1,7 +1,10 @@
 import React from 'react'
+import DefaultPage from '../components/DefaultPage/DefaultPage'
 
 export default function NotFound() {
   return (
-    <div>NotFound</div>
+    <DefaultPage>
+      <div>NotFound</div>
+    </DefaultPage>
   )
 }
