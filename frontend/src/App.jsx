@@ -1,6 +1,6 @@
 import React, { Suspense } from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import routes from './routes/routes';
+import routes from './Routes/routes';
 import NotFound from "./pages/NotFound";
 
 function App() {
