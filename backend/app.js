@@ -6,20 +6,10 @@ app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 
 // Rotas
-app.use("/", require("../controllers/loginController"));
-app.use("/", require("../controllers/signupController"));
-app.use("/", require("../controllers/stockController"));
-app.use("/", require("../controllers/modalController"));
-app.use("/", require("../controllers/productController"));
-app.use("/", require("../controllers/providerController"));
-app.use("/", require("../controllers/panelController"));
-app.use("/", require("../controllers/categoryController"));
-app.use("/", require("../controllers/movementController"));
-app.use("/", require("../controllers/unitController"));
-app.use("/", require("../controllers/warehouseController"));
+app.use("/", require("caminho"));
 
-app.listen(5050, () => {
-  console.log("Servidor rodando na porta 5050");
+app.listen(3000, () => {
+  console.log("Servidor rodando na porta 3000");
 });
 
 module.exports = app;
