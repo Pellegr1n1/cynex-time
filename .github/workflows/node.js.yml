@@ -2,9 +2,13 @@ name: NodeJS
 
 on:
   push:
-    branches: [ "*" ]
+    branches: 
+      - back-end
+      - 'back-end/**'
   pull_request:
-    branches: [ "*" ]
+    branches:
+      - back-end
+      - 'back-end/**'
 
 jobs:
   build:
