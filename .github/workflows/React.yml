@@ -37,3 +37,8 @@ jobs:
         with:
           name: build
           path: build
+
+  docker:
+    needs: build
+    uses: ./.github/workflows/Docker.yml
+    secrets: inherit
