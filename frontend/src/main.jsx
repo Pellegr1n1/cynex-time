@@ -12,6 +12,10 @@ ReactDOM.createRoot(document.getElementById("root")).render(
           bodyBg: "white",
           headerBg: "white",
         },
+        Form:{
+          verticalLabelPadding: 0,
+          labelRequiredMarkColor: "transparent"
+        }
       },
     }}
   >
