@@ -12,11 +12,7 @@ on:
 
 jobs:
   build:
-    runs-on: ${{ matrix.os }}
-    strategy:
-      matrix:
-        os: [ 'ubuntu-20.04', 'windows-latest' ]
-        node_version: [ '16', '18' ]
+    runs-on: ubuntu-latest
 
     steps:
       - name: Checkout code
@@ -25,7 +21,7 @@ jobs:
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
-          node-version: ${{ matrix.node_version }}
+          node-version: 18
 
       - name: Install dependencies and build
         working-directory: frontend
@@ -33,22 +29,15 @@ jobs:
           npm install
           npm run build
           
-  upload_artifact:
-    needs: build
-    runs-on: ubuntu-latest
-    steps:
-      - name: Checkout code
-        uses: actions/checkout@v4
-
       - name: Upload artifact
         uses: actions/upload-artifact@v4.2.0
         with:
           name: build
           path: frontend/dist
           retention-days: 1
-
+        
   deploy:
-    needs: upload_artifact
+    needs: build
     runs-on: ubuntu-latest
     steps:
       - name: Checkout code
