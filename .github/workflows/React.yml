@@ -63,5 +63,5 @@ jobs:
         
       - name: Build and push Docker images
         run: |
-          docker build -t ${{ secrets.USER_DOCKER_HUB }}/${{ github.repository }}:${{ github.ref_name }} .
-          docker push ${{ secrets.USER_DOCKER_HUB }}/${{ github.repository }}:${{ github.ref_name }}
+          docker build -t ${{ secrets.USER_DOCKER_HUB }}/${{ github.repository }}:${{ github.ref_name | lower }} .
+          docker push ${{ secrets.USER_DOCKER_HUB }}/${{ github.repository }}:${{ github.ref_name | lower }}
