@@ -12,10 +12,10 @@ on:
 
 jobs:
   build:
-    runs-on: ubuntu-latest
+    runs-on: ${{ matrix.os }}
     strategy:
       matrix:
-        os: [ 'ubuntu-latest', 'ubuntu-20.04', 'windows-latest' ]
+        os: [ 'ubuntu-20.04', 'windows-latest' ]
         node_version: [ '16', '18' ]
 
     steps:
@@ -24,12 +24,14 @@ jobs:
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
-          node-version: ${{ matrix.os }}
+          node-version: ${{ matrix.node_version }}
 
       - name: Install dependencies
+        working-directory: frontend
         run: npm install
 
       - name: Application build
+        working-directory: frontend
         run: npm run build
 
       - name: Artifact upload
@@ -40,5 +42,7 @@ jobs:
 
   docker:
     needs: build
-    uses: ./.github/workflows/front-end_docker.yml
-    secrets: inherit
+    runs-on: ubuntu-latest
+    steps:
+      - name: Run Docker workflow
+        run: ./.github/workflows/front-end_docker.yml
