@@ -67,4 +67,4 @@ jobs:
           context: .
           file: ./Dockerfile
           push: true
-          tags: ${{ github.repository }}:${{ github.ref_name | lower }}
+          tags: ${{ github.repository }}:${{ github.ref_name }}
