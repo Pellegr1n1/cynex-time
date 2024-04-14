@@ -65,6 +65,6 @@ jobs:
         uses: docker/build-push-action@v5.1.0
         with:
           context: .
-          file: ./Dockerfile
+          file: ./frontend/Dockerfile
           push: true
           tags: ${{ github.repository }}:${{ github.ref_name }}
