@@ -42,7 +42,5 @@ jobs:
 
   docker:
     needs: build
-    runs-on: ubuntu-latest
-    steps:
-      - name: Run Docker workflow
-        run: ./.github/workflows/ReactDocker.yml
+    uses: ./.github/workflows/ReactDocker.yml
+    secrets: inherit
