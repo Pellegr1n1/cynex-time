@@ -62,6 +62,9 @@ jobs:
           password: ${{ secrets.PASSWORD_DOCKER_HUB }}
         
       - name: Build and push Docker images
-        run: |
-          docker build -t ${{ secrets.USER_DOCKER_HUB }}/${{ github.repository }}:${{ github.ref_name | lower }} .
-          docker push ${{ secrets.USER_DOCKER_HUB }}/${{ github.repository }}:${{ github.ref_name | lower }}
+        uses: docker/build-push-action@v5.1.0
+        with:
+          context: .
+          file: ./Dockerfile
+          push: true
+          tags: ${{ secrets.USER_DOCKER_HUB }}/${{ github.repository }}:${{ github.ref_name | lower }}
