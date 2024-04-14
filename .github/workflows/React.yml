@@ -40,5 +40,7 @@ jobs:
 
   docker:
     needs: build
-    uses: ./.github/workflows/front-end_docker.yml
-    secrets: inherit
+    runs-on: ubuntu-latest
+    steps:
+      - name: Run Docker workflow
+        run: ./.github/workflows/front-end_docker.yml
