@@ -45,4 +45,4 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Run Docker workflow
-        run: ./.github/workflows/front-end_docker.yml
+        run: .github/workflows/front-end_docker.yml
