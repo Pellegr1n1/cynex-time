@@ -67,4 +67,4 @@ jobs:
           context: .
           file: ./Dockerfile
           push: true
-          tags: ${{ secrets.USER_DOCKER_HUB }}/${{ github.repository }}
+          tags: ${{ github.repository }}:${{ github.ref_name | lower }}
