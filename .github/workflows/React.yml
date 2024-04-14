@@ -27,9 +27,11 @@ jobs:
           node-version: ${{ matrix.node_version }}
 
       - name: Install dependencies
+        working-directory: front-end
         run: npm install
 
       - name: Application build
+        working-directory: front-end
         run: npm run build
 
       - name: Artifact upload
